@@ -21,11 +21,11 @@ input, button, textarea, select { font: inherit }
 /* Web page */
 body {
     background-color: #FFFFBD;
+    font-family: 'Merriweather', serif;
 }
 
 /* Main heading */
 h1 {
-    font-family: serif;    
     font-size: 84px;
     line-height: 1.1;
     font-weight: normal;
@@ -37,8 +37,7 @@ h1 {
 
 /* Small headings */
 h2 {
-    font-family: serif;    
-    font-size: 26px;
+    font-size: 24px;
     color:#3434B0;
     line-height: 1.5;
     margin-bottom: 42px;
@@ -46,7 +45,6 @@ h2 {
 
 /* Smaller headings */
 h3 {
-    font-family: serif;    
     font-size: 42px;
     color: #000;
     letter-spacing:-1px;
@@ -58,7 +56,7 @@ h3 {
 /* Text paragraphs */
 p {
     font-family: serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
