@@ -67,5 +67,5 @@ p {
 img {
     margin-bottom:42px;
     /* Drop shadow effect at right and bottom of image */
-    box-shadow: 8px 10px 8px m#888;
+    box-shadow: 8px 10px 8px #888;
 }
