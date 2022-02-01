@@ -26,7 +26,7 @@ body {
 
 /* Main heading */
 h1 {
-    font-size: 84px;
+    font-size: calc(48px + (84 - 48) * ((100vw - 320px) / (1600 - 320)));
     line-height: 1.1;
     font-weight: normal;
     color: #3434B0;
@@ -37,7 +37,7 @@ h1 {
 
 /* Small headings */
 h2 {
-    font-size: 24px;
+    font-size: calc(18px + (26 - 18) * ((100vw - 320px) / (1600 - 320)));
     color:#3434B0;
     line-height: 1.5;
     margin-bottom: 42px;
@@ -45,6 +45,7 @@ h2 {
 
 /* Smaller headings */
 h3 {
+    font-size: calc(32px + (38 - 32) * ((100vw - 320px) / (1600 - 320)));
     font-size: 42px;
     color: #000;
     letter-spacing:-1px;
@@ -55,6 +56,7 @@ h3 {
 
 /* Text paragraphs */
 p {
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
     font-family: serif;
     font-size: 20px;
     color: #455C80;
