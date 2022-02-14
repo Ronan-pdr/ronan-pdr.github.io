@@ -1,7 +1,7 @@
 /*  ============= WEB BROWSER RESETS ============ */
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
-html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+html { height: 100%; font: inherit; font-size: 100%; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
 body { max-width: 1920px; line-height: 1.5; margin-left: auto; margin-right: auto; 
 min-height: 100vh; text-rendering: optimizeSpeed }  
@@ -12,7 +12,7 @@ input, button, textarea, select { font: inherit }
 /* ================= ENDS ================ */
 
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+@media (min-width: 768px) { body { padding: 4% 20%; } }
 
 /* Mobiles */
 @media (max-width: 767px) { body { padding: 12% 8% } }
@@ -26,7 +26,7 @@ body {
 
 /* Main heading */
 h1 {
-    font-size: calc(48px + (84 - 48) * ((100vw - 320px) / (1600 - 320)));
+    font-size: calc(48px + (84 - 48) * ((100vw - 320px) /(1600 - 320)));
     line-height: 1.1;
     font-weight: normal;
     color: #3434B0;
@@ -36,17 +36,16 @@ h1 {
 }
 
 /* Small headings */
-h2 {
-    font-size: calc(18px + (26 - 18) * ((100vw - 320px) / (1600 - 320)));
+h2 { 
+    font-size: calc(18px + (26 - 18) * ((100vw - 320px) /(1600 - 320)));
     color:#3434B0;
     line-height: 1.5;
     margin-bottom: 42px;
 }
 
 /* Smaller headings */
-h3 {
-    font-size: calc(32px + (38 - 32) * ((100vw - 320px) / (1600 - 320)));
-    font-size: 42px;
+h3 {  
+    font-size: calc(32px + (38 - 32) * ((100vw - 320px) /(1600 - 320)));
     color: #000;
     letter-spacing:-1px;
     margin-top: 40px;
@@ -56,9 +55,7 @@ h3 {
 
 /* Text paragraphs */
 p {
-    font-size: calc(16px + (21 - 16) * ((100vw - 320px) / (1600 - 320)));
-    font-family: serif;
-    font-size: 20px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 320px) /(1600 - 320)));
     color: #455C80;
     line-height: 1.6;
     margin-top: 0;
@@ -66,8 +63,11 @@ p {
 }
 
 /* Images */
-img {
-    margin-bottom:42px;
+img { 
+    margin-bottom: 42px;
     /* Drop shadow effect at right and bottom of image */
-    box-shadow: 8px 10px 8px #888;
+    box-shadow: 8px 10px 8px #888;    
 }
+
+
+
