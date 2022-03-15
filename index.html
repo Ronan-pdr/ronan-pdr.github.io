@@ -1,43 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ronan Pédron | Home Page</title>
-        <meta name= "description"ccontent="Hi I'm Ronan, currently a 19-years-old student in computer engineering at EPITA in Paris.">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">    
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">    
-        <link rel="manifest" href="assets/img/site.webmanifest">
-        <link rel="stylesheet" href="assets/css/global.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronan Pédron - Web and Digital Developer</title>
+    <meta name="description" content="Take your business to the next level. Get a robust, visually pleasing website to showcase your brand.">
 
-        <!--Google Font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <h1>Hi, I'm Ronan Pédron</h1>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
-        <h2>Web / UI Designer</h2>
+	<!-- Preload hero image -->
 
-        <p>I created this website to showcase some of my recent web design work</p>
 
-        <img src="assets/img/apple-style.jpg" alt="image of apple product">
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunadoge.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
-        <h3>Sample Web Pages</h3>
-        <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-        <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-        <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-        <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-        <p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
-        <p><a href="exercises/page-6.html">Irish Tourism</a></p> 
-        <p><a href="exercises/page-7.html">Smoothies</a></p> 
-        <p><a href="exercises/page-8.html">Software Analytics</a></p> 
-        <p><a href="exercises/page-9.html">The Box Model</a></p>
-        <p><a href="exercises/page-10.html">Web Page With Panels</a></p> 
-        <p><a href="exercises/hero-text.html">Hero block with animated text</a></p>
-        <p><a href="exercises/hero-image.html">Hero block with background image</a></p>
-        <p><a href="exercises/hero-video.html">Hero block with background video</a></p> 
-    </body>
+	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet"> 
+
+    
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTCGWHZ87Z"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BTCGWHZ87Z');
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+</head>
+
+
+<body>
+
+    <!-- navigation menu -->
+    <nav></nav>
+
+    <!-- header hero block -->
+    <header class="hero-block hero-half half-img-right text-center-mobile">
+        <div class="col-2">
+            <div class="hero-text-container">
+                <h1>Ronan Pédron</h1>
+                <h2>Web and Digital Developer</h2>
+            </div>
+        
+        
+            <div class="container-btn">
+                <a href="portfolio/index.html" class="btn btn-secondary"><i class="fas fa-portrait"></i> Portfolio</a>   
+                <a href="portfolio/contact.html" class="btn btn-primary"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="hero-bg-media">
+                <img src="assets/img/programming-undraw.svg" sample background image">
+            </div>
+        </div>
+    </header>
+    
+    
+
+
+    <!-- main content with sections -->
+    <main>
+        <section class="container-flex theme-one">
+            <div class="col-1 text-center">
+                <h2>Recent Projects</h2>
+                <h3>Below you can see some examples of my recent work.</h3>
+            </div>
+
+            <div class="col-3">
+                <figure><img src="assets/img/project-van-gogh.png" alt="Vincent Van Gogh image"></figure>
+                <h3>Vincent Van Gogh</h3>
+                <p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
+                <a href="portfolio/van-gogh/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> View my project</a>
+            </div>
+
+            <div class="col-3">
+                <figure><img src="assets/img/project-smoothie.jpg" alt="Smooth Smoothies image"></figure>
+                <h3>Smooth Smoothies</h3>
+                <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+                <a href="portfolio/smoothies/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> View my project</a>
+            </div>
+
+            <div class="col-3">
+                <figure><img src="assets/img/project-fashion.jpg" alt="Snazzy Fashion image"></figure>
+                <h3>Snazzy Fashion</h3>
+                <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+                <a href="portfolio/fashion/index.html" class="btn btn-primary"><i class="fas fa-arrow-right"></i> View my project</a>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- footer -->
+    
+	<footer>
+
+		<h2>Ronan Pédron, Web Developer</h2>
+
+		<h3>Excellence in digital creation</h3>
+
+		<ul class="footer-links">
+			<li><a href="/">Home</a></li>
+			<li><a href="portfolio/index">Portfolio</a></li>
+			<li><a href="contact/index.html">Contact</a></li>
+		</ul>
+
+		<ul class="footer-icons">
+			<li><a href="https://www.linkedin.com/in/ronan-pedron/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://www.facebook.com/ronan.pedron/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="https://github.com/Ronan-pdr" target="_blank"><i class="fab fa-github-square"></i></a></li>
+			<li><a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+			<li><a href="https://www.instagram.com/ronan.pdr/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+		</ul>
+
+	</footer>
+       
+    <script src="assets/js/menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#343a40"
+        },
+        "button": {
+          "background": "#4dd4ac"
+        }
+      },
+      "theme": "classic",
+      "position": "bottom-right",
+      "content": {
+        "href": "https://spileur.github.io/privacy.html"
+      }
+    });
+    </script>
+
+</body>
 </html>
